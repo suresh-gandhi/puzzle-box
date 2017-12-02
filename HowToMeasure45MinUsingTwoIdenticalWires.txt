@@ -1,0 +1,23 @@
+Q) We are given two wires and matchsticks and we have to measure 45 minutes using these two wires. The wires need not be identical or of the same length. Also, the wires do not necessarily burn uniformly.
+
+Solution) 
+
+Ok first of all lets try to be systematic and frame the problem mathematically. 
+
+We are given two wires. Fine. I would name them A and B. What is given to us? We simply know that I take a matchstick and light one end of the wire(either A or B) and at the very same moment start my time counter, then when my wire has completely burnt the total time elapsed would be 60 min. 
+
+But hey! This is not the right direction! We want to measure 45 min...45 < 60...Can't we do anything which speeds up the burning of the wires so that we can measure smaller time intervals. Perhaps we can burn the wire(either A or B) from both the sides at the start.
+
+Lets say we burn the wire A from both the ends at the start simultaneously. Lets assume that after the time interval t the wire has burnt completely. Clearly we are doing things at a double pace. Hence the time elapsed t is 60/2 = 30 min. Cool! We are progressing. Now we have measured 30 min. We just need to measure 15 more min somehow.
+
+If we carefully look we have concluded that if we have a wire which takes a t time to burn completely. Then we can measure t(obviously) as well as t/2 time(just being a bit smart about burning) provided we have two matchsticks for the latter case :P 
+
+Now we need to measure 15 min more. Depending upon what we have analyzed I can measure 15 min if I get a wire which either takes 15 min to burn or takes 30 min to burn completely.
+
+We have two wires right and we have not used the second one(lets say B here). Why dont we burn one end of the wire B at the start with the wire A(which was burnt at the both the ends)? This is because A would get burnt in 30 min. So 30 min have elapsed and we also know that B has been burning since the start. So it will take 30 min more for B to burn. 
+
+Now we have a wire(part of B) which will take 30 min to burn completely. As we discussed and it must be quite apparent by now, we simply have to burn it from both the ends and we can measure 15 min then. We have measured 30 + 15 = 45 min.
+
+Just a follow up came in my mind while writing the solution to this problem ->
+
+	Suppose we are given 3 wires A, B, C. Can't say anything about their rates of burning, their length or they are identical or not. Also some matchsticks. Can we measure 52.5 min using it? Or can we measure 67.5 min using it?
