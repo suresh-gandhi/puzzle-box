@@ -1,1 +1,1 @@
-Learning is enhanced and efficient when we explain our thought process and solutions to other. This repo consists of my approach, thought process and solutions to some famous brainteasers ;)
+Learning is enhanced and efficient when we explain our thought process and solutions to others. This repo consists of my approach, thought process and solutions to some famous brainteasers ;)
