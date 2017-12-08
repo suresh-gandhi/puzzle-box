@@ -1,0 +1,35 @@
+Q) We are given 100 statements ->
+	1st one says: Atleast one is wrong.
+	2nd one says: Atleast two are wrong.
+	3rd one says: Atleast three are wrong.
+	4th one says: Atleast four are wrong.
+	and so on....
+	100th one says: Atleast 100 are wrong.
+
+   How many statements are actually wrong and how many are actually right?
+
+Ans) As soon as I looked at this problem first I asked myself ok, what I need. I have to go at 
+statement 1 and just say whether it is wrong or right. Similarly I have to look over statement 2 
+and just simply decide whether it is wrong or right. And so on. Basically I have to do for all the 
+statements. And then at last count the number of statements which are wrong and the number of statements which right.
+
+     Let us first look at what the 100th guy says. He says that atleast 100 statements
+     are wrong. Either he is right or he is wrong.
+ 
+     Lets assume that he is right => his statement is right ofcourse => 100 statements are wrong => he himself is wrong.
+
+     Now lets assume that he is wrong. Then he wrong, nothing to dicuss further. So from both the ways he is wrong.
+     Hence 100th statement is surely wrong. Hurray we have got one statement which is wrong atleast and this is what
+     1st guy said. So he is right for sure.
+
+     Now lets go for the 99th statement. If he is correct => he himself is wrong(this is because the first guy is 
+     definitely correct so all other remaining 99 have to be wrong) => he himself is wrong.
+ 
+     And lets now assume that he is wrong. nothing to say again. He is a stupid ass. Both the ways implies that he is wrong.
+     So 99th guy is also wrong. It means that the 2nd guy was correct as we have got 100th guy as well the 99th guy both are wrong.
+
+     If we continue our logic in this manner, I can very well say that the first 50 statements are correct and the last 50 statements 
+     are wrong.
+
+         
+
