@@ -13,7 +13,8 @@ statement 1 and just say whether it is wrong or right. Similarly I have to look 
 and just simply decide whether it is wrong or right. And so on. Basically I have to do for all the 
 statements. And then at last count the number of statements which are wrong and the number of statements which right.
 
-     Let us first look at what the 100th guy says. He says that atleast 100 statements
+     Let us first look at what the 100th guy says(this is because I cant infer anything if I go from the top to the bottom, 
+     it is acutually intuitive if you start thinking from the top). He says that atleast 100 statements
      are wrong. Either he is right or he is wrong.
  
      Lets assume that he is right => his statement is right ofcourse => 100 statements are wrong => he himself is wrong.
